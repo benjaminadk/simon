@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Project: Simon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://use.fontawesome.com/e5ddde80f9.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+<meta property="og:url"                content="https://benjaminadk.github.io/simon/index.html" />
+<meta property="og:type"               content="webpage" />
+<meta property="og:title"              content="Simon Game" />
+<meta property="og:description"        content="A Blast From The Past" />
+<meta property="og:image"              content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1216298/Screenshot%202017-06-30%20at%207.44.21%20PM.png" />
+  
+</head>
+
+<body>
+  <div id="app"></div>
+<button class="success button large" type="button" onclick="helpToggle()">INSTRUCTIONS </button>
+<div id="help">
+<h1>INSTRUCTIONS</h1>
+  <h3>IMPORTANT - Simon won't let you know if you are wrong until you enter the full amount of presses for each round.  The current round is displayed in the box next to the start button</h3>
+  <p>Simon is a memory game.  Simon will press a sequence of buttons that will light up.  The game begins in round 1, with a 1 button sequence.  After Simon does his sequence, you try to match it!  If you match it correctly, the game moves to round 2, and Simon does a 2 button sequence.  This continues for 20 rounds, then you win.  The following explains what to do.
+  <ul>
+    <li>Activate ON/OFF Switch.  It will light up <span id="orange">Orange</span></li>
+    <li>To play in <span class="mode">Regular Mode</span> - In regular mode, when you get a sequence wrong, Simon will replay it and you get another chance.</li>
+    <ul>
+      <li>Activate Start Button</li>
+      </ul>
+    <li>To play in <span class="mode">Strict Mode</span> - In strict mode, when you get a sequence wrong, Simon will turn off and you have to restart the game</li>
+    <ul>
+      <li>Activate Strict Button</li>
+      <li>Activate Start Button</li>
+      </ul>
+    </ul>
+  <h1>HAVE FUN</h1>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.1/Pizzicato.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
