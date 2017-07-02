@@ -1,4 +1,5 @@
 # Simon
+## [PLAY SIMON](https://benjaminadk.github.io/simon/index.html)
 ## History
 The original Simon game was launched in 1978.  It was invented by Ralph Baer, and distrubuted my Milton Bradley.  The game was an immediate success and became a pop culture symbol in the 70s and 80s.
 
