@@ -29,5 +29,4 @@ a round.  A user can get the first press of round ten wrong but won't get feedba
 - I look to improve upon this in the future
 
 ## Enjoy the Game And Good Luck Winning!
-## Test LOOM VIDEO BELOW AND IN WIKI 
-[![](https://raw.githubusercontent.com/benjaminadk/simon/master/handsome.jpg)](https://www.useloom.com/share/2aacbef79042417ebb35ede1c5be7638)
+
